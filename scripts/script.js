@@ -37,11 +37,11 @@ function movieGeneration (movies){
 
                     <div class="card-btm d-flex justify-content-evenly">
                         
-                        <button class="btn-own text-success" style="background-color: transparent;">
+                        <button id="btn" class="btn-own text-success" style="background-color: transparent;">
                             <i class="fas fa-thumbs-up"></i> Like
                         </button>  
                        
-                        <span class="badge text-success bg-light">${movies[i].likes}</span>
+                        <span id="counter" class="badge text-success bg-light">${movies[i].likes}</span>
                         
                     </div>
 
@@ -59,3 +59,4 @@ function movieGeneration (movies){
 }
 
 document.getElementById("entry").innerHTML += movieGeneration(movies);
+
