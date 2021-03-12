@@ -1,0 +1,149 @@
+let movies = `[
+
+    {
+    "movieName": "The Dark Knight",
+    "image": "./img/DarkKnight.jpg",
+    "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "likes": 0,
+    "length": "2h 32min",
+    "genre": "Action, Crime, Drama",
+    "release": "2008"
+   
+  }, {
+    "movieName": "Schindlers List",
+    "image": "./img/SchindlersList.jpg",
+    "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "likes": 0,
+    "length": "3h 15min",
+    "genre": "Drama, Biography",
+    "release": "1993"
+   
+  }, {
+    "movieName": "Pulp Fiction",
+    "image": "./img/PulpFiction.jpg",
+    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption. ",
+    "likes": 0,
+    "length": "2h 34min",
+    "genre": "Crime, Drama",
+    "release": "1994"
+   
+  }, {
+    "movieName": "Fight Club",
+    "image": "./img/FightClub.jpg",
+    "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+    "likes": 0,
+    "length": "2h 19min",
+    "genre": "Drama",
+    "release": "1999"
+   
+  }, {
+    "movieName": "Forrest Gump",
+    "image": "./img/ForrestGump.jpg",
+    "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+    "likes": 0,
+    "length": "2h 22min",
+    "genre": "Drama, Romance",
+    "release": "1994"
+   
+  }, {
+    "movieName": "Matrix",
+    "image": "./img/Matrix.jpg",
+    "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+    "likes": 0,
+    "length": "2h 16min",
+    "genre": "Action, Sci-Fi",
+    "release": "1999"
+   
+  }, {
+    "movieName": "Saving Private Ryan",
+    "image": "./img/PrivateRyan.jpg",
+    "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+    "likes": 0,
+    "length": "2h 49min",
+    "genre": "Drama, War",
+    "release": "1998"
+   
+  }, {
+    "movieName": "Interstellar",
+    "image": "./img/Interstellar.jpg",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "likes": 0,
+    "length": "2h 49min",
+    "genre": "Adventure, Sci-Fi",
+    "release": "2015"
+   
+  }, {
+    "movieName": "Leon",
+    "image": "./img/Leon.jpg",
+    "description": "Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.",
+    "likes": 0,
+    "length": "1h 50min",
+    "genre": "Action, Crime, Drama",
+    "release": "1994"
+   
+  }, {
+    "movieName": "American History X",
+    "image": "./img/AmericanHistoryX.jpg",
+    "description": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
+    "likes": 0,
+    "length": "1h 59min",
+    "genre": "Drama",
+    "release": "1998"
+   
+  }, {
+    "movieName": "Wall-E",
+    "image": "./img/Wall-E.jpg",
+    "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+    "likes": 0,
+    "length": "1h 38min",
+    "genre": "Animation, Adventure",
+    "release": "2008"
+   
+  }, {
+    "movieName": "The Dark Knight Rises",
+    "image": "./img/TheDarkKnightRises.jpg",
+    "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane.",
+    "likes": 0,
+    "length": "2h 44min",
+    "genre": "Action, Adventure",
+    "release": "2012"
+   
+  }, {
+    "movieName": "Jurassic Park",
+    "image": "./img/JurassicPark.jpg",
+    "description": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+    "likes": 0,
+    "length": "2h 7min",
+    "genre": "Action, Adventure, Sci-Fi",
+    "release": "1993"
+   
+  }, {
+    "movieName": "Jurassic World",
+    "image": "./img/JurassicWorld.jpg",
+    "description": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
+    "likes": 0,
+    "length": "2h 4min",
+    "genre": "Action, Adventure, Sci-Fi",
+    "release": "2015"
+   
+  }, {
+    "movieName": "Harodim",
+    "image": "./img/Harodim.jpg",
+    "description": "A naval intelligence officer, Lazarus Fell, interrogates an Al-Qaeda terrorist about the attacks on 9/11 that killed over 3,000 American citizens.",
+    "likes": 0,
+    "length": "1h 30min",
+    "genre": "Thriller",
+    "release": "2012"
+   
+  }, {
+    "movieName": "The Ghost and the Darkness",
+    "image": "./img/TheGhostAndTheDarkness.jpg",
+    "description": "A bridge engineer and an experienced old hunter begin a hunt for two lions after they start attacking local construction workers.",
+    "likes": 0,
+    "length": "1h 50min",
+    "genre": "Adventure, Drama, Thriller",
+    "release": "1996"
+   
+  } 
+]`
+
