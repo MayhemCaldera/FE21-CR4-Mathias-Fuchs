@@ -4,19 +4,21 @@ let movies = `[
     "movieName": "The Dark Knight",
     "image": "./img/DarkKnight.jpg",
     "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-    "likes": 0,
+    "likes": 3,
     "length": "2h 32min",
     "genre": "Action, Crime, Drama",
-    "release": "2008"
+    "release": "2008",
+    "trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
    
   }, {
     "movieName": "Schindlers List",
     "image": "./img/SchindlersList.jpg",
     "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
-    "likes": 0,
+    "likes": 8,
     "length": "3h 15min",
     "genre": "Drama, Biography",
-    "release": "1993"
+    "release": "1993",
+    "trailer": ""
    
   }, {
     "movieName": "Pulp Fiction",
@@ -25,7 +27,8 @@ let movies = `[
     "likes": 0,
     "length": "2h 34min",
     "genre": "Crime, Drama",
-    "release": "1994"
+    "release": "1994",
+    "trailer": ""
    
   }, {
     "movieName": "Fight Club",
@@ -34,7 +37,8 @@ let movies = `[
     "likes": 0,
     "length": "2h 19min",
     "genre": "Drama",
-    "release": "1999"
+    "release": "1999",
+    "trailer": ""
    
   }, {
     "movieName": "Forrest Gump",
@@ -43,7 +47,8 @@ let movies = `[
     "likes": 0,
     "length": "2h 22min",
     "genre": "Drama, Romance",
-    "release": "1994"
+    "release": "1994",
+    "trailer": ""
    
   }, {
     "movieName": "Matrix",
@@ -52,16 +57,18 @@ let movies = `[
     "likes": 0,
     "length": "2h 16min",
     "genre": "Action, Sci-Fi",
-    "release": "1999"
+    "release": "1999",
+    "trailer": ""
    
   }, {
     "movieName": "Saving Private Ryan",
     "image": "./img/PrivateRyan.jpg",
     "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
-    "likes": 0,
+    "likes": 6,
     "length": "2h 49min",
     "genre": "Drama, War",
-    "release": "1998"
+    "release": "1998",
+    "trailer": ""
    
   }, {
     "movieName": "Interstellar",
@@ -70,7 +77,8 @@ let movies = `[
     "likes": 0,
     "length": "2h 49min",
     "genre": "Adventure, Sci-Fi",
-    "release": "2015"
+    "release": "2015",
+    "trailer": ""
    
   }, {
     "movieName": "Leon",
@@ -79,16 +87,18 @@ let movies = `[
     "likes": 0,
     "length": "1h 50min",
     "genre": "Action, Crime, Drama",
-    "release": "1994"
+    "release": "1994",
+    "trailer": ""
    
   }, {
     "movieName": "American History X",
     "image": "./img/AmericanHistoryX.jpg",
     "description": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
-    "likes": 0,
+    "likes": 2,
     "length": "1h 59min",
     "genre": "Drama",
-    "release": "1998"
+    "release": "1998",
+    "trailer": ""
    
   }, {
     "movieName": "Wall-E",
@@ -97,7 +107,8 @@ let movies = `[
     "likes": 0,
     "length": "1h 38min",
     "genre": "Animation, Adventure",
-    "release": "2008"
+    "release": "2008",
+    "trailer": ""
    
   }, {
     "movieName": "The Dark Knight Rises",
@@ -106,7 +117,8 @@ let movies = `[
     "likes": 0,
     "length": "2h 44min",
     "genre": "Action, Adventure",
-    "release": "2012"
+    "release": "2012",
+    "trailer": ""
    
   }, {
     "movieName": "Jurassic Park",
@@ -115,16 +127,18 @@ let movies = `[
     "likes": 0,
     "length": "2h 7min",
     "genre": "Action, Adventure, Sci-Fi",
-    "release": "1993"
+    "release": "1993",
+    "trailer": ""
    
   }, {
     "movieName": "Jurassic World",
     "image": "./img/JurassicWorld.jpg",
     "description": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
-    "likes": 0,
+    "likes": 4,
     "length": "2h 4min",
     "genre": "Action, Adventure, Sci-Fi",
-    "release": "2015"
+    "release": "2015",
+    "trailer": ""
    
   }, {
     "movieName": "Harodim",
@@ -133,17 +147,19 @@ let movies = `[
     "likes": 0,
     "length": "1h 30min",
     "genre": "Thriller",
-    "release": "2012"
+    "release": "2012",
+    "trailer": ""
    
   }, {
     "movieName": "The Ghost and the Darkness",
     "image": "./img/TheGhostAndTheDarkness.jpg",
     "description": "A bridge engineer and an experienced old hunter begin a hunt for two lions after they start attacking local construction workers.",
-    "likes": 0,
+    "likes": 7,
     "length": "1h 50min",
     "genre": "Adventure, Drama, Thriller",
-    "release": "1996"
+    "release": "1996",
+    "trailer": ""
    
   } 
-]`
+] `
 

@@ -1,13 +1,15 @@
-movies = JSON.parse(movies);
-console.log(movies);
-document.write(movies);
+movieList = JSON.parse(movies);
+console.log(movieList);
 
 
 
-function movieGeneration (movies){
+
+
+
+function movieGeneration (movieList){
 
     let cards = "";
-    for (let i = 0; i < movies.length; i++){
+    for (let i = 0; i < movieList.length; i++){
     
         
         cards += `
@@ -18,38 +20,36 @@ function movieGeneration (movies){
             <div class="row">
                 
             <div class="col-md-4">
-                    <img src="${movies[i].image}">
+            <a href="${movies[i].trailer}"><img src="${movieList[i].image}"></a>
                 </div>
                     
                     <div class="col-md-8">
                         <div class="card-body height">
-                            <h3 class="card-title">${movies[i].movieName}</h3>
-                            <p class="card-text">${movies[i].description} </p>
+                            <h3 class="card-title">${movieList[i].movieName}</h3>
+                            <p class="card-text">${movieList[i].description} </p>
                             
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item bg-secondary">Length: ${movies[i].length}</li>
-                                <li class="list-group-item bg-secondary">Genre(s): ${movies[i].genre}</li>
-                                <li class="list-group-item bg-secondary">Release: ${movies[i].release}</li>
+                                <li class="list-group-item bg-secondary">Length: ${movieList[i].length}</li>
+                                <li class="list-group-item bg-secondary">Genre(s): ${movieList[i].genre}</li>
+                                <li class="list-group-item bg-secondary">Release: ${movieList[i].release}</li>
                             </ul>
                             
                         </div>
                     </div>
 
                     <div class="card-btm d-flex justify-content-evenly">
-                        
-                        <button id="btn" class="btn-own text-success" style="background-color: transparent;">
+                        <div  id="btn">
+                        <button  class="btn-own text-success" style="background-color: transparent;">
                             <i class="fas fa-thumbs-up"></i> Like
                         </button>  
-                       
-                        <span id="counter" class="badge text-success bg-light">${movies[i].likes}</span>
+                        </div>
+                        <span id="counter" class="badge likes text-success bg-light">${movieList[i].likes}</span>
                         
                     </div>
 
             </div>
         </div>
             
-        
-
         `
     
         
@@ -58,5 +58,24 @@ function movieGeneration (movies){
     
 }
 
-document.getElementById("entry").innerHTML += movieGeneration(movies);
+document.getElementById("entry").innerHTML += movieGeneration(movieList);
 
+
+// --------Like Button and Live Counter----------
+
+
+let likeBtn = document.querySelectorAll("#btn");
+
+likeBtn.forEach(function(currentBtn){
+
+    currentBtn.addEventListener("click", function(){
+
+        let like = this.parentNode.querySelector("#counter").innerHTML;
+
+        like = parseInt(like);
+
+        this.parentNode.querySelector("#counter").innerHTML = like + 1;
+
+    })
+
+})
